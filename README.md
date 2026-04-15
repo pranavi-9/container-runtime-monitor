@@ -101,8 +101,8 @@ Reason: Clear observation
 
 | Mode | Time |
 |------|------|
-| Single process | X sec |
-| Parallel | Y sec |
+| Single process | 8 sec |
+| Parallel | 15 sec |
 
 Observation:
 Parallel execution increases contention and execution time due to scheduler sharing CPU.
