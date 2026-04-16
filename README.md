@@ -47,6 +47,12 @@ dmesg | tail
 ### Unload module
 sudo rmmod monitor
 
+rootfs-base is not included due to size constraints.
+
+To recreate:
+
+sudo debootstrap --variant=minbase focal ./rootfs-base http://archive.ubuntu.com/ubuntu/
+
 
 
 ## 3. Engineering Analysis
